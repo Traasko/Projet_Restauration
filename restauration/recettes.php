@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Eatery Colorlib Website Template</title>
+    <title>A propos</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -33,7 +33,7 @@
     <header role="banner">
       <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container">
-          <a class="navbar-brand" href="index.html">Eatery</a>
+          <a class="navbar-brand" href="index.php">Eatery</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -41,30 +41,30 @@
           <div class="collapse navbar-collapse" id="navbarsExample05">
             <ul class="navbar-nav ml-auto pl-lg-5 pl-0">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link active" href="index.php">Accueil</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="recipes.html">Recipes</a>
+                <a class="nav-link" href="recettes.php">Recettes</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                <a class="nav-link dropdown-toggle" href="services.php" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown04">
-                  <a class="dropdown-item" href="services.html">Catering</a>
-                  <a class="dropdown-item" href="services.html">Birthday Party</a>
-                  <a class="dropdown-item" href="services.html">Wedding Party</a>
+                  <a class="dropdown-item" href="services.html">Restauration</a>
+                  <a class="dropdown-item" href="services.html">Anniversaire</a>
+                  <a class="dropdown-item" href="services.html">Mariage</a>
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="apropos.php">A propos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="news.html">News</a>
+                <a class="nav-link" href="nouveaute.php">Nouveautés</a>
               </li>
             </ul>
 
             <ul class="navbar-nav ml-auto">
               <li class="nav-item cta-btn">
-                <a class="nav-link" href="contact.html">Contact Us</a>
+                <a class="nav-link" href="contact.php">Nous contacter</a>
               </li>
             </ul>
 
@@ -72,7 +72,8 @@
         </div>
       </nav>
     </header>
-    <!-- END header -->
+
+    <!-- header -->
 
     <section class="home-slider-loop-false  inner-page owl-carousel">
       <div class="slider-item" style="background-image: url('img/hero_2.jpg');">
@@ -80,7 +81,7 @@
         <div class="container">
           <div class="row slider-text align-items-center justify-content-center">
             <div class="col-md-8 text-center col-sm-12 element-animate">
-              <h1>Our Recipes</h1>
+              <h1>Nos recettes</h1>
 
             </div>
           </div>
@@ -96,7 +97,7 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-12 text-center heading-wrap">
-              <h2>Our Menu</h2>
+              <h2>Nos Menu</h2>
               <span class="back-text-dark">Menu</span>
             </div>
           </div>
@@ -110,9 +111,8 @@
             <div class="sched d-block d-lg-flex">
               <div class="bg-image order-2" style="background-image: url('img/dishes_4.jpg');"></div>
               <div class="text order-1">
-                <h3>Grilled Caesar salad, shaved reggiano</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
-                <p class="text-primary h3">$12.00</p>
+                <h3>Salade César grillée, reggiano rasé</h3>
+                <p class="text-primary h3">12.00€</p>
               </div>
 
             </div>
@@ -120,9 +120,8 @@
             <div class="sched d-block d-lg-flex">
               <div class="bg-image" style="background-image: url('img/dishes_1.jpg');"></div>
               <div class="text">
-                <h3>Spicy Calamari and beans</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
-                <p class="text-primary h3">$12.00</p>
+                <h3>Calamars épicés et haricots</h3>
+                <p class="text-primary h3">12.00€</p>
 
               </div>
 
@@ -134,9 +133,8 @@
             <div class="sched d-block d-lg-flex">
               <div class="bg-image order-2" style="background-image: url('img/dishes_2.jpg');"></div>
               <div class="text order-1">
-                <h3>Bacon wrapped wild gulf prawns</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
-                <p class="text-primary h3">$18.00</p>
+                <h3>Crevettes du golfe sauvage enrobées de bacon</h3>
+                <p class="text-primary h3">18.00€</p>
 
               </div>
 
@@ -145,9 +143,8 @@
             <div class="sched d-block d-lg-flex">
               <div class="bg-image" style="background-image: url('img/dishes_3.jpg');"></div>
               <div class="text">
-                <h3>Seared ahi tuna fillet*, honey-ginger sauce</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
-                <p class="text-primary h3">$16.00</p>
+                <h3>Filet de thon ahi poêlé, sauce miel-gingembre</h3>
+                <p class="text-primary h3">16.00€</p>
 
               </div>
 
@@ -165,23 +162,19 @@
         <div class="row">
           <div class="col-md-6 mb-4 mb-lg-0 col-lg-3 text-center">
             <span class="flaticon-cheers display-4 text-black d-block mb-4"></span>
-            <h4 class="mb-4 text-primary">Drinks</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic maiores. Velit nisi, reprehenderit, nobis officia.</p>
+            <h4 class="mb-4 text-primary">Boissons</h4>
           </div>
           <div class="col-md-6 mb-4 mb-lg-0 col-lg-3 text-center">
             <span class="flaticon-fish display-4 text-black d-block mb-4"></span>
-            <h4 class="mb-4 text-primary">Sea Foods</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic maiores. Velit nisi, reprehenderit, nobis officia.</p>
+            <h4 class="mb-4 text-primary">Fruits de mer</h4>
           </div>
           <div class="col-md-6 mb-4 mb-lg-0 col-lg-3 text-center">
             <span class="flaticon-coffee-cup display-4 text-black d-block mb-4"></span>
-            <h4 class="mb-4 text-primary">Cup Coffees</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic maiores. Velit nisi, reprehenderit, nobis officia.</p>
+            <h4 class="mb-4 text-primary">Tasse de cafés</h4>
           </div>
           <div class="col-md-6 mb-4 mb-lg-0 col-lg-3 text-center">
             <span class="flaticon-salad display-4 text-black d-block mb-4"></span>
-            <h4 class="mb-4 text-primary">Fresh Salad</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic maiores. Velit nisi, reprehenderit, nobis officia.</p>
+            <h4 class="mb-4 text-primary">Salade fraîche</h4>
           </div>
         </div>
       </div>

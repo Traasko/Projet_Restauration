@@ -81,7 +81,7 @@
         <div class="container">
           <div class="row slider-text align-items-center justify-content-center">
             <div class="col-md-8 text-center col-sm-12 element-animate">
-              <h1>A propos de nous</h1>
+              <h1>Nous concernant</h1>
 
             </div>
           </div>
