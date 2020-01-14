@@ -27,7 +27,7 @@ if (isset($_POST['login']) && isset($_POST['mdp'])) {
     $_SESSION['mdp'] = $donne['mdp'];
     $_SESSION['id'] = $donne['id'];
 
-    header ('location: accueil_co.php');
+    header ('location: index.php');
 
   }
   else {

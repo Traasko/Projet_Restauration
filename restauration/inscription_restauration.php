@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Inscription</title>
+	<title>Inscription eastry</title>
 	<meta charset="utf-8">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
 
@@ -34,7 +34,6 @@
 				<input type="text" placeholder="Nom" class="txtb" name="nom">
 				<input type="text" placeholder="Prenom" class="txtb" name="prenom">
 				<input type="text" placeholder="Mail" class="txtb" name="mail">
-				<input type="text" placeholder="Login" class="txtb" name="login">
 				<input type="password" placeholder="Mot de passe" class="txtb" name="mdp">
 				</select>
 
