@@ -1,10 +1,15 @@
 <?php
 
-$nom=$_POST['nom'];
-$prenom=$_POST['prenom'];
-$mail=$_POST['mail'];
-$login=$_POST['login'];
-$mdp=md5($_POST['mdp']);
+class utilisateur
+{
+  private $nom;
+  private $prenom;
+  private $mail;
+  private $login;
+  private $mdp;
+
+  public function __construct()
+}
 
 try{
 $bdd= new PDO('mysql:host=localhost;dbname=projet_restauration;charset=utf8','root','');
