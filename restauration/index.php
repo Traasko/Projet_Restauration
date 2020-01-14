@@ -118,22 +118,18 @@
           <div class="col-md-6 mb-4 mb-lg-0 col-lg-3 text-center">
             <span class="flaticon-cheers display-4 text-black d-block mb-4"></span>
             <h4 class="mb-4 text-primary">Boissons</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic maiores. Velit nisi, reprehenderit, nobis officia.</p>
           </div>
           <div class="col-md-6 mb-4 mb-lg-0 col-lg-3 text-center">
             <span class="flaticon-fish display-4 text-black d-block mb-4"></span>
             <h4 class="mb-4 text-primary">Fruits de mer</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic maiores. Velit nisi, reprehenderit, nobis officia.</p>
           </div>
           <div class="col-md-6 mb-4 mb-lg-0 col-lg-3 text-center">
             <span class="flaticon-coffee-cup display-4 text-black d-block mb-4"></span>
             <h4 class="mb-4 text-primary">Tasse de cafés</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic maiores. Velit nisi, reprehenderit, nobis officia.</p>
           </div>
           <div class="col-md-6 mb-4 mb-lg-0 col-lg-3 text-center">
             <span class="flaticon-salad display-4 text-black d-block mb-4"></span>
-            <h4 class="mb-4 text-primary">Salade fraiche</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic maiores. Velit nisi, reprehenderit, nobis officia.</p>
+            <h4 class="mb-4 text-primary">Salade fraîche</h4>
           </div>
         </div>
       </div>
@@ -205,7 +201,6 @@
               <div class="bg-image order-2" style="background-image: url('img/dishes_4.jpg');"></div>
               <div class="text order-1">
                 <h3>Salade César grillée, reggiano rasé</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
                 <p class="text-primary h3">12.00€</p>
               </div>
 
@@ -215,7 +210,6 @@
               <div class="bg-image" style="background-image: url('img/dishes_1.jpg');"></div>
               <div class="text">
                 <h3>Calamars épicés et haricots</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
                 <p class="text-primary h3">12.00€</p>
 
               </div>
@@ -229,7 +223,6 @@
               <div class="bg-image order-2" style="background-image: url('img/dishes_2.jpg');"></div>
               <div class="text order-1">
                 <h3>Crevettes du golfe sauvage enrobées de bacon</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
                 <p class="text-primary h3">18.00€</p>
 
               </div>
@@ -240,7 +233,6 @@
               <div class="bg-image" style="background-image: url('img/dishes_3.jpg');"></div>
               <div class="text">
                 <h3>Filet de thon ahi poêlé , sauce miel-gingembre</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
                 <p class="text-primary h3">16.00€</p>
 
               </div>
