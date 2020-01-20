@@ -12,7 +12,7 @@ class manager
       die('Erreur:'.$e->getMessage());
     }
     $req = $bdd->prepare('INSERT INTO restauration(nom, prenom, mail, mdp) VALUES(?,?,?,?)')
-    $req->execute(array($donne->getNom(), $donne->getPrenom(), $donne->getMail(), $donne->getMdp()));
+    $req->execute(array($donne->getnom(), $donne->getprenom(), $donne->getmail(), $donne->getmdp()));
     }
   }
 }

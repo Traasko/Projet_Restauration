@@ -1,5 +1,5 @@
 <?php
-class utilisateur
+class inscription
 {
   private $nom;
   private $prenom;
@@ -25,5 +25,4 @@ $req = $bdd->prepare('INSERT INTO user (nom, prenom, mail, mdp) VALUES(?,?,?,?)'
 $req -> execute(array($nom, $prenom, $mail, $mdp, $type));
 
 header("location:connexion_restauration.php");
-
 ?>
