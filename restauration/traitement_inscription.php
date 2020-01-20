@@ -1,14 +1,17 @@
 <?php
-
 class utilisateur
 {
   private $nom;
   private $prenom;
   private $mail;
-  private $login;
   private $mdp;
 
-  public function __construct()
+  public function __construct($nom,$prenom,$mail,$mdp)
+    $this->setNom($nom);
+    $this->setPrenom($prenom);
+    $this->setMail($mail);
+    $this->setMdp($mdp);
+    $this->hydrate($donne);
 }
 
 try{
@@ -18,8 +21,8 @@ catch(Exception $e)
 {
   die('Erreur:'.$e->getMessage());
 }
-$req = $bdd->prepare('INSERT into user (nom, prenom, mail, login, mdp) VALUES(?,?,?,?,?)');
-$req -> execute(array($nom, $prenom, $mail, $login, $mdp, $type));
+$req = $bdd->prepare('INSERT INTO user (nom, prenom, mail, mdp) VALUES(?,?,?,?)');
+$req -> execute(array($nom, $prenom, $mail, $mdp, $type));
 
 header("location:connexion_restauration.php");
 

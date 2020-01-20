@@ -7,7 +7,7 @@ class utilisateur
   private $mail;
   private $mdp;
 
-public function __construct($nom,$prenom,$mail,$login,$mdp)
+public function __construct($nom,$prenom,$mail,$login,$mdp);
     $this->setNom($nom);
     $this->setPrenom($prenom);
     $this->setMail($mail);
