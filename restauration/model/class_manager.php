@@ -1,5 +1,5 @@
 <?php
-require 'class_utilisateur.php'
+require 'class_utilisateur.php';
 
 class manager
 {
