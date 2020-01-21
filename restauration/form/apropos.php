@@ -25,7 +25,7 @@
   	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   	<link rel="stylesheet" href="css/bootstrap.css">
 
-    <!-- Theme Style -->
+    <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
@@ -33,7 +33,7 @@
     <header role="banner">
       <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container">
-          <a class="navbar-brand" href="index.php">Eatery</a>
+          <a class="navbar-brand" href="index.php">GAV</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -49,9 +49,9 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="services.php" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown04">
-                  <a class="dropdown-item" href="services.html">Restauration</a>
-                  <a class="dropdown-item" href="services.html">Anniversaire</a>
-                  <a class="dropdown-item" href="services.html">Mariage</a>
+                  <a class="dropdown-item" href="services.php">Restauration</a>
+                  <a class="dropdown-item" href="services.php">Anniversaire</a>
+                  <a class="dropdown-item" href="services.php">Mariage</a>
                 </div>
               </li>
               <li class="nav-item">
@@ -67,7 +67,6 @@
                 <a class="nav-link" href="contact.php">Nous contacter</a>
               </li>
             </ul>
-
           </div>
         </div>
       </nav>

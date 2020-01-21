@@ -24,16 +24,17 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.css">
-
-    <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
   </head>
+
+<!-- Style -->
+
   <body>
 
     <header role="banner">
       <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container">
-          <a class="navbar-brand" href="index.php">Eatery</a>
+          <a class="navbar-brand" href="index.php">GAV</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -49,9 +50,9 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="services.php" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown04">
-                  <a class="dropdown-item" href="services.html">Restauration</a>
-                  <a class="dropdown-item" href="services.html">Anniversaire</a>
-                  <a class="dropdown-item" href="services.html">Mariage</a>
+                  <a class="dropdown-item" href="services.php">Restauration</a>
+                  <a class="dropdown-item" href="services.php">Anniversaire</a>
+                  <a class="dropdown-item" href="services.php">Mariage</a>
                 </div>
               </li>
               <li class="nav-item">
@@ -78,6 +79,7 @@
         </div>
       </nav>
     </header>
+
     <!-- header -->
 
     <section class="home-slider owl-carousel">
@@ -158,7 +160,7 @@
         <a href="#" class="item-dishes">
           <div class="text">
             <p class="dishes-price">12.00€</p>
-            <h2 class="dishes-heading">Brocoli au four</h2>
+            <h2 class="dishes-heading">Brocolis au four</h2>
           </div>
           <img src="img/dishes_2.jpg" alt="" class="img-fluid">
         </a>
@@ -172,7 +174,7 @@
         <a href="#" class="item-dishes">
           <div class="text">
             <p class="dishes-price">12.00€</p>
-            <h2 class="dishes-heading">Aubergine parmigiana</h2>
+            <h2 class="dishes-heading">Aubergines parmigiana</h2>
           </div>
           <img src="img/dishes_4.jpg" alt="" class="img-fluid">
         </a>
@@ -253,8 +255,8 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-12 text-center heading-wrap">
-              <h2>Témoignage</h2>
-              <span class="back-text">Témoignage</span>
+              <h2>Témoignages</h2>
+              <span class="back-text">Témoignages</span>
             </div>
           </div>
         </div>

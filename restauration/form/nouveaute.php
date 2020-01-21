@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>A propos</title>
+    <title>Nouveautés</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -24,16 +24,17 @@
   	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   	<link rel="stylesheet" href="css/bootstrap.css">
-
-    <!-- Theme Style -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Style -->
+
   </head>
   <body>
 
     <header role="banner">
       <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container">
-          <a class="navbar-brand" href="index.php">Eatery</a>
+          <a class="navbar-brand" href="index.php">GAV</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -49,9 +50,9 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="services.php" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown04">
-                  <a class="dropdown-item" href="services.html">Restauration</a>
-                  <a class="dropdown-item" href="services.html">Anniversaire</a>
-                  <a class="dropdown-item" href="services.html">Mariage</a>
+                  <a class="dropdown-item" href="services.php">Restauration</a>
+                  <a class="dropdown-item" href="services.php">Anniversaire</a>
+                  <a class="dropdown-item" href="services.php">Mariage</a>
                 </div>
               </li>
               <li class="nav-item">
@@ -67,7 +68,6 @@
                 <a class="nav-link" href="contact.php">Nous contacter</a>
               </li>
             </ul>
-
           </div>
         </div>
       </nav>
@@ -81,7 +81,7 @@
         <div class="container">
           <div class="row slider-text align-items-center justify-content-center">
             <div class="col-md-8 text-center col-sm-12 element-animate">
-              <h1>Nos recettes</h1>
+              <h1>Blog / News</h1>
 
             </div>
           </div>
@@ -91,121 +91,116 @@
 
     </section>
 
-    <section class="section bg-light element-animate">
 
-      <div class="clearfix mb-5 pb-5">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-12 text-center heading-wrap">
-              <h2>Nos Menu</h2>
-              <span class="back-text-dark">Menu</span>
-            </div>
-          </div>
-        </div>
-      </div>
+    <section class="section element-animate">
 
-      <div class="container">
-
-        <div class="row no-gutters">
-          <div class="col-md-6">
-            <div class="sched d-block d-lg-flex">
-              <div class="bg-image order-2" style="background-image: url('img/dishes_4.jpg');"></div>
-              <div class="text order-1">
-                <h3>Salade César grillée, reggiano rasé</h3>
-                <p class="text-primary h3">12.00€</p>
-              </div>
-
-            </div>
-
-            <div class="sched d-block d-lg-flex">
-              <div class="bg-image" style="background-image: url('img/dishes_1.jpg');"></div>
-              <div class="text">
-                <h3>Calamars épicés et haricots</h3>
-                <p class="text-primary h3">12.00€</p>
-
-              </div>
-
-            </div>
-
-          </div>
-
-          <div class="col-md-6">
-            <div class="sched d-block d-lg-flex">
-              <div class="bg-image order-2" style="background-image: url('img/dishes_2.jpg');"></div>
-              <div class="text order-1">
-                <h3>Crevettes du golfe sauvage enrobées de bacon</h3>
-                <p class="text-primary h3">18.00€</p>
-
-              </div>
-
-            </div>
-
-            <div class="sched d-block d-lg-flex">
-              <div class="bg-image" style="background-image: url('img/dishes_3.jpg');"></div>
-              <div class="text">
-                <h3>Filet de thon ahi poêlé, sauce miel-gingembre</h3>
-                <p class="text-primary h3">16.00€</p>
-
-              </div>
-
-            </div>
-
-          </div>
-        </div>
-
-
-      </div>
-    </section> <!-- .section -->
-
-    <section class="section bg-light element-animate">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 mb-4 mb-lg-0 col-lg-3 text-center">
-            <span class="flaticon-cheers display-4 text-black d-block mb-4"></span>
-            <h4 class="mb-4 text-primary">Boissons</h4>
-          </div>
-          <div class="col-md-6 mb-4 mb-lg-0 col-lg-3 text-center">
-            <span class="flaticon-fish display-4 text-black d-block mb-4"></span>
-            <h4 class="mb-4 text-primary">Fruits de mer</h4>
-          </div>
-          <div class="col-md-6 mb-4 mb-lg-0 col-lg-3 text-center">
-            <span class="flaticon-coffee-cup display-4 text-black d-block mb-4"></span>
-            <h4 class="mb-4 text-primary">Tasse de cafés</h4>
-          </div>
-          <div class="col-md-6 mb-4 mb-lg-0 col-lg-3 text-center">
-            <span class="flaticon-salad display-4 text-black d-block mb-4"></span>
-            <h4 class="mb-4 text-primary">Salade fraîche</h4>
-          </div>
-        </div>
-      </div>
-    </section>
+          <div class="col-md-6 mb-4">
+            <div class="blog d-block d-lg-flex">
+              <div class="bg-image" style="background-image: url('img/dishes_1.jpg');"></div>
+              <div class="text">
+                <h3>How to cook beef steak with sauce</h3>
+                <p class="sched-time">
+                  <span><span class="fa fa-calendar"></span> April 22, 2018</span> <br>
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
 
+                <p><a href="single.html" class="btn btn-primary btn-sm">Read More</a></p>
 
-    <section class="py-5">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-6 text-center">
-            <div class="row">
-              <div class="col-md-12">
-                <h3>Subsribe Newsletter</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ex temporibus magni ipsam inventore dolorum sunt, amet vel.</p>
               </div>
 
-              <form action="" class="col-12">
-                <div class="row align-items-center">
-                <div class="col-md-8 mb-3 mb-md-0">
-                  <input type="text" class="form-control" placeholder="Enter Email Address">
-                </div>
-                <div class="col-md-4">
-                  <input type="submit" class="btn btn-primary btn-block" value="Subscribe">
-                </div>
-                </div>
-              </form>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="blog d-block d-lg-flex">
+              <div class="bg-image" style="background-image: url('img/dishes_2.jpg');"></div>
+              <div class="text">
+                <h3>How to cook beef steak with sauce</h3>
+                <p class="sched-time">
+                  <span><span class="fa fa-calendar"></span> April 22, 2018</span> <br>
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
+
+                <p><a href="single.html" class="btn btn-primary btn-sm">Read More</a></p>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="blog d-block d-lg-flex">
+              <div class="bg-image" style="background-image: url('img/dishes_1.jpg');"></div>
+              <div class="text">
+                <h3>How to cook beef steak with sauce</h3>
+                <p class="sched-time">
+                  <span><span class="fa fa-calendar"></span> April 22, 2018</span> <br>
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
+
+                <p><a href="single.html" class="btn btn-primary btn-sm">Read More</a></p>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="blog d-block d-lg-flex">
+              <div class="bg-image" style="background-image: url('img/dishes_2.jpg');"></div>
+              <div class="text">
+                <h3>How to cook beef steak with sauce</h3>
+                <p class="sched-time">
+                  <span><span class="fa fa-calendar"></span> April 22, 2018</span> <br>
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
+
+                <p><a href="single.html" class="btn btn-primary btn-sm">Read More</a></p>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="blog d-block d-lg-flex">
+              <div class="bg-image" style="background-image: url('img/dishes_1.jpg');"></div>
+              <div class="text">
+                <h3>How to cook beef steak with sauce</h3>
+                <p class="sched-time">
+                  <span><span class="fa fa-calendar"></span> April 22, 2018</span> <br>
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
+
+                <p><a href="single.html" class="btn btn-primary btn-sm">Read More</a></p>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="blog d-block d-lg-flex">
+              <div class="bg-image" style="background-image: url('img/dishes_2.jpg');"></div>
+              <div class="text">
+                <h3>How to cook beef steak with sauce</h3>
+                <p class="sched-time">
+                  <span><span class="fa fa-calendar"></span> April 22, 2018</span> <br>
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
+
+                <p><a href="single.html" class="btn btn-primary btn-sm">Read More</a></p>
+
+              </div>
+
             </div>
           </div>
         </div>
       </div>
-    </section>
+
+    </section> <!-- .section -->
+
+
+
 
 
     <footer class="site-footer" role="contentinfo">
