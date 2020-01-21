@@ -71,7 +71,7 @@
 
             <ul class="navbar-nav ml-auto">
               <li class="nav-item cta-btn">
-                <a class="nav-link" href="/model/inscription_class.php">Inscription</a>
+                <a class="nav-link" href="inscription_restauration.php">Inscription</a>
               </li>
             </ul>
 

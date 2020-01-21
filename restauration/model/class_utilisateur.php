@@ -1,54 +1,38 @@
 <?php
 
-class utilisateur
-{
-  private $nom;
-  private $prenom;
-  private $mail;
-  private $mdp;
+Class utilisateur{
 
-public function __construct($nom,$prenom,$mail,$login,$mdp){
+    private $nom;
+    private $prenom;
+    private $mail;
+    private $mdp;
 
-}
-public function hydrate(array $donne){
+    public function __construct($nom, $prenom, $mail, $mdp){
+        $this->setNom($nom);
+        $this->setPrenom($prenom);
+        $this->setMail($mail);
+        $this->setMdp($mdp);
+    }
 
-}
+    public function getNom(){ return $this->nom;}
+    public function getPrenom(){ return $this->prenom;}
+    public function getMail(){ return $this->mail;}
+    public function getMdp(){ return $this->mdp;}
 
-public function setnom($nom){
-  if (empty($nom)){
-    return;
-  }
-  $this->_nom = $nom;
-}
-public function setprenom($prenom){
-  if (empty($prenom)){
-    return;
-  }
-  $this->_prenom = $prenom;
-}
-public function setmail($mail){
-  if (empty($mail)){
-    return;
-  }
-  $this->_mail = $mail;
-}
-public function setmdp($mdp){
-  if (empty($mdp)){
-    return;
-  }
-  $this->_mdp = $mdp;
-}
-public function nom($nom){
-  return $this->_nom;
-}
-public function prenom($prenom){
-  return $this->_prenom;
-}
-public function mail($mail){
-  return $this->_mail;
-}
-public function mdp($mdp){
-  return $this->_mdp;
-}
+    public function setNom($nom){
+        $this->nom = $nom;
+    }
+
+    public function setPrenom($prenom){
+        $this->prenom = $prenom;
+    }
+
+    public function setMail($mail){
+        $this->mail = $mail;
+    }
+
+    public function setMdp($mdp){
+            $this->mdp = $mdp;
+    }
 }
 ?>
