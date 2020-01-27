@@ -32,7 +32,6 @@ Class utilisateur{
     }
 
     public function setMdp($mdp){
-            $this->mdp = $mdp;
+        $this->mdp = $mdp;
     }
 }
-?>

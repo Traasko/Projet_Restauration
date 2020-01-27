@@ -23,7 +23,6 @@ Class Connexion{
     }
 
     public function setNom($nom){
-        $bdd= new PDO('mysql:host=localhost;dbname=restauration;charset=utf8','root','');
         $reponse=$bdd->prepare('SELECT * FROM inscription WHERE nom=:nom');
         $reponse->execute(array(
         'nom'=>$this->nom));
@@ -32,7 +31,6 @@ Class Connexion{
     }
 
     public function connexion(){
-        $bdd= new PDO('mysql:host=localhost;dbname=restauration;charset=utf8','root','');
         $reponse=$bdd->prepare('SELECT * FROM inscription WHERE mail=:mail AND nom=:nom');
         $reponse->execute(array(
         'mail'=>$this->mail,
