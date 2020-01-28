@@ -3,48 +3,22 @@
 Class Connexion{
 
     private $mail;
-    private $nom;
+    private $mdp;
 
-    public function __construct($mail, $nom){
+    public function __construct($mail, $mdp){
         $this->setMail($mail);
-        $this->setNom($nom);
+        $this->setMdp($mdp);
     }
 
-    public function getMail(){ return $this->mail;}
-    public function getNom(){ return $this->nom;}
+    public function getMail(){ return $this->mail; }
+    public function getMdp(){ return $this->mdp; }
 
     public function setMail($mail){
-        $bdd= new PDO('mysql:host=localhost;dbname=restauration;charset=utf8','root','');
-        $reponse=$bdd->prepare('SELECT * FROM inscription WHERE mail=:mail');
-        $reponse->execute(array(
-        'mail'=>$this->mail));
-        $donne=$reponse->fetch();
         $this->mail = $mail;
     }
 
-    public function setNom($nom){
-        $reponse=$bdd->prepare('SELECT * FROM inscription WHERE nom=:nom');
-        $reponse->execute(array(
-        'nom'=>$this->nom));
-        $donne=$reponse->fetch();
-        $this->nom = $nom;
-    }
-
-    public function connexion(){
-        $reponse=$bdd->prepare('SELECT * FROM inscription WHERE mail=:mail AND nom=:nom');
-        $reponse->execute(array(
-        'mail'=>$this->mail,
-        'nom'=>$this->nom));
-        $donne=$reponse->fetch();
-
-        if ($donne['mail'] == $this->mail && $donne['nom'] == $this->nom){
-            echo 'Vous êtes connecté !';
-        }
+    public function setMdp($mdp){
+        $this->mdp = sha1($mdp);
     }
 
 }
-
-$user = new Connexion('t.yalap@lprs.fr', 'Yalap');
-$user->connexion();
-var_dump($user);
-?>
