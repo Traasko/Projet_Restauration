@@ -1,7 +1,7 @@
 <?php
 
 Class Connexion{
-
+  
     private $mail;
     private $mdp;
 

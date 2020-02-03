@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Inscription eastry</title>
+	<title>Inscription </title>
 	<meta charset="utf-8">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
 
@@ -28,8 +28,10 @@
 </head>
 <body>
 
-		<div class="signup-form">
-			<form action="class_inscription.php" method="POST">
+	<div class="container">
+		<div class="row slider-text align-items-center justify-content-center">
+			<div class="col-md-8 text-center col-sm-12 element-animate">
+			<form action="../traitement/traitement_inscription.php" method="POST">
 				<h1>Inscription</h1>
 				<input type="text" placeholder="Nom" class="txtb" name="nom">
 				<input type="text" placeholder="Prenom" class="txtb" name="prenom">

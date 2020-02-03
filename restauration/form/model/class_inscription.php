@@ -7,11 +7,11 @@ Class Inscription{
     private $mail;
     private $mdp;
 
-    public function __construct($nom, $prenom, $mail, $mdp, $mdp2){
+    public function __construct($nom, $prenom, $mail, $mdp){
         $this->setNom($nom);
         $this->setPrenom($prenom);
         $this->setMail($mail);
-        $this->setMdp($mdp, $mdp2);
+        $this->setMdp($mdp);
     }
 
     public function getNom(){ return $this->nom; }
@@ -29,19 +29,15 @@ Class Inscription{
     }
 
     public function setPrenom($prenom){
-
             $this->prenom = $prenom;
-
     }
 
     public function setMail($mail){
-
             $this->mail = $mail;
-
     }
 
-    public function setMdp($mdp, $mdp2){
-        if($mdp == $mdp2){
+    public function setMdp($mdp){
+        if($mdp){
             $this->mdp = sha1($mdp);
         }else{
             echo 'Les Mdp ne correspondent pas !';
@@ -49,3 +45,5 @@ Class Inscription{
     }
 
 }
+
+?>
