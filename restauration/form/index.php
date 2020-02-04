@@ -75,6 +75,12 @@
               </li>
             </ul>
 
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item cta-btn">
+                <a class="nav-link" href="reservation.php">Réserver</a>
+              </li>
+            </ul>
+
           </div>
         </div>
       </nav>
@@ -316,6 +322,8 @@
         </div>
       </div>
     </section>
+
+
 
 <!-- footer -->
 

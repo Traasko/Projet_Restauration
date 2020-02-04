@@ -1,6 +1,6 @@
 <?php
 
-class reservation{
+class Reservation{
 
   private $nom;
   private $prenom;
@@ -11,7 +11,7 @@ class reservation{
   public function __construct($nom, $prenom, $phone, $date, $heur){
       $this->setNom($nom);
       $this->setPrenom($prenom);
-      $this->setMail($phone);
+      $this->setPhone($phone);
       $this->setDate($date);
       $this->setHeur($heur);
     }
@@ -38,5 +38,5 @@ class reservation{
         $this->heur = $heur;
     }
 
-
+}
  ?>

@@ -30,7 +30,7 @@ Class Manager{
     }
 
     public function reservation($reserv){
-        $bdd = new PDO ('mysql:host=localhost;dbname=restauration;charset=utf8','roor','');
+        $bdd = new PDO ('mysql:host=localhost;dbname=restauration;charset=utf8','root','');
         $req = $bdd->prepare('INSERT INTO reservation(nom, prenom, phone, date, heur) VALUES(:nom, :prenom, :phone, :date, :heur)');
         $req->execute(array('nom'=>$reserv->getNom(), 'prenom'=>$reserv->getPrenom(), 'phone'=>$reserv->getPhone(), 'date'=>$reserv->getDate(), 'heur'=>$reserv->getHeur()));
     }

@@ -1,7 +1,7 @@
 <?php
 
 require('../manager/manager_connexion.php');
-require('../form/model/class_inscription.php');
+require('../model/class_inscription.php');
 
 $inscription = new Inscription($_POST['nom'], $_POST['prenom'], $_POST['mail'], $_POST['mdp']);
 $manager = new Manager();
