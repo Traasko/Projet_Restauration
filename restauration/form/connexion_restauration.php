@@ -29,6 +29,8 @@
 <body>
 	<div class="connex-form">
 		<form action="class_connexion.php" method="POST">
+
+		<form action="model/class_connexion.php" method="POST">
 			<h1>Connexion</h1>
 			<input type="text" placeholder="Login" class="txtb" name="login">
 			<input type="password" placeholder="Mot de passe" class="txtb" name="pwd">

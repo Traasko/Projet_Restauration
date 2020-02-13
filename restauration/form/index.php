@@ -75,6 +75,12 @@
               </li>
             </ul>
 
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item cta-btn">
+                <a class="nav-link" href="reservation.php">Réserver</a>
+              </li>
+            </ul>
+
           </div>
         </div>
       </nav>
@@ -89,12 +95,9 @@
           <div class="row slider-text align-items-center justify-content-center">
             <div class="col-md-8 text-center col-sm-12 element-animate">
               <h1>Chefs experts</h1>
-<<<<<<< HEAD:restauration/index.php
               <p class="mb-5">Premier restaurant de chefs experimentés</p>
               <p><a href="#" class="btn btn-white btn-outline-white">En savoir plus</a></p>
-=======
               <p class="mb-5">Bienvenu sur notre site de restauration</p>
->>>>>>> 3a52436b85cfc3f5bfc0a122ff127451d8550c11:restauration/form/index.php
             </div>
           </div>
         </div>
@@ -321,6 +324,8 @@
         </div>
       </div>
     </section>
+
+
 
 <!-- footer -->
 
