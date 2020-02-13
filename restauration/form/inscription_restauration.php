@@ -29,7 +29,7 @@
 <body>
 
 		<div class="signup-form">
-			<form action="traitement_inscription.php" method="POST">
+			<form action="model/inscription_class.php" method="POST">
 				<h1>Inscription</h1>
 				<input type="text" placeholder="Nom" class="txtb" name="nom">
 				<input type="text" placeholder="Prenom" class="txtb" name="prenom">

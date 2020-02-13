@@ -24,16 +24,17 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.css">
-
-    <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
   </head>
+
+<!-- Style -->
+
   <body>
 
     <header role="banner">
       <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container">
-          <a class="navbar-brand" href="index.php">Eatery</a>
+          <a class="navbar-brand" href="index.php">GAV</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -49,9 +50,9 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="services.php" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown04">
-                  <a class="dropdown-item" href="services.html">Restauration</a>
-                  <a class="dropdown-item" href="services.html">Anniversaire</a>
-                  <a class="dropdown-item" href="services.html">Mariage</a>
+                  <a class="dropdown-item" href="services.php">Restauration</a>
+                  <a class="dropdown-item" href="services.php">Anniversaire</a>
+                  <a class="dropdown-item" href="services.php">Mariage</a>
                 </div>
               </li>
               <li class="nav-item">
@@ -78,6 +79,7 @@
         </div>
       </nav>
     </header>
+
     <!-- header -->
 
     <section class="home-slider owl-carousel">
@@ -87,8 +89,12 @@
           <div class="row slider-text align-items-center justify-content-center">
             <div class="col-md-8 text-center col-sm-12 element-animate">
               <h1>Chefs experts</h1>
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
+<<<<<<< HEAD:restauration/index.php
+              <p class="mb-5">Premier restaurant de chefs experimentés</p>
               <p><a href="#" class="btn btn-white btn-outline-white">En savoir plus</a></p>
+=======
+              <p class="mb-5">Bienvenu sur notre site de restauration</p>
+>>>>>>> 3a52436b85cfc3f5bfc0a122ff127451d8550c11:restauration/form/index.php
             </div>
           </div>
         </div>
@@ -129,7 +135,7 @@
           </div>
           <div class="col-md-6 mb-4 mb-lg-0 col-lg-3 text-center">
             <span class="flaticon-salad display-4 text-black d-block mb-4"></span>
-            <h4 class="mb-4 text-primary">Salade fraîche</h4>
+            <h4 class="mb-4 text-primary">Salades fraîches</h4>
           </div>
         </div>
       </div>
@@ -142,7 +148,7 @@
           <div class="row">
             <div class="col-md-12 text-center heading-wrap">
               <h2>Plats spéciaux</h2>
-              <span class="back-text">Vaisselles</span>
+              <span class="back-text">Plats spéciaux</span>
             </div>
           </div>
         </div>
@@ -159,7 +165,7 @@
         <a href="#" class="item-dishes">
           <div class="text">
             <p class="dishes-price">12.00€</p>
-            <h2 class="dishes-heading">Brocoli au four</h2>
+            <h2 class="dishes-heading">Brocolis au four</h2>
           </div>
           <img src="img/dishes_2.jpg" alt="" class="img-fluid">
         </a>
@@ -173,7 +179,7 @@
         <a href="#" class="item-dishes">
           <div class="text">
             <p class="dishes-price">12.00€</p>
-            <h2 class="dishes-heading">Aubergine parmigiana</h2>
+            <h2 class="dishes-heading">Aubergines parmigiana</h2>
           </div>
           <img src="img/dishes_4.jpg" alt="" class="img-fluid">
         </a>
@@ -186,7 +192,7 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-12 text-center heading-wrap">
-              <h2>Nos Menu</h2>
+              <h2>Menu</h2>
               <span class="back-text-dark">Menu</span>
             </div>
           </div>
@@ -244,9 +250,9 @@
 
 
       </div>
-    </section> <!-- .section -->
+    </section>
 
-
+    <!-- .section -->
 
     <section class="section element-animate">
 
@@ -254,8 +260,8 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-12 text-center heading-wrap">
-              <h2>Témoignage</h2>
-              <span class="back-text">Témoignage</span>
+              <h2>Témoignages</h2>
+              <span class="back-text">Témoignages</span>
             </div>
           </div>
         </div>
@@ -301,59 +307,9 @@
           </div>
         </div>
       </div>
-    </section> <!-- .section -->
+    </section>
 
-    <section class="section element-animate">
-      <div class="clearfix mb-5 pb-5">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-12 text-center heading-wrap">
-              <h2>Blog</h2>
-              <span class="back-text">Notre Blog</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="blog d-block d-lg-flex">
-              <div class="bg-image" style="background-image: url('img/dishes_1.jpg');"></div>
-              <div class="text">
-                <h3>Comment faire cuire un steak de boeuf avec de la sauce</h3>
-                <p class="sched-time">
-                  <span><span class="fa fa-calendar"></span> 22 Avril 2018</span> <br>
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
-
-                <p><a href="#" class="btn btn-primary btn-sm">En savoir plus</a></p>
-
-              </div>
-
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="blog d-block d-lg-flex">
-              <div class="bg-image" style="background-image: url('img/dishes_2.jpg');"></div>
-              <div class="text">
-                <h3>Comment faire cuire un steak de boeuf avec de la sauce</h3>
-                <p class="sched-time">
-                  <span><span class="fa fa-calendar"></span>22 Avril 2018</span> <br>
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
-
-                <p><a href="#" class="btn btn-primary btn-sm">En savoir plus</a></p>
-
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section> <!-- .section -->
-
+    <!-- .section -->
 
     <section class="py-5 bg-light">
       <div class="container">
@@ -372,8 +328,8 @@
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-4 mb-5">
-            <h3>About Us</h3>
-            <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus et dolor blanditiis consequuntur ex voluptates perspiciatis omnis unde minima expedita.</p>
+            <h3>Nous concernant</h3>
+            <p class="mb-5">Nous sommes un restaurant qui a ouvert ses portes en juillet 2019, nos chefs sont expérimentés</p>
             <ul class="list-unstyled footer-link d-flex footer-social">
               <li><a href="#" class="p-2"><span class="fa fa-twitter"></span></a></li>
               <li><a href="#" class="p-2"><span class="fa fa-facebook"></span></a></li>
@@ -384,22 +340,22 @@
           </div>
           <div class="col-md-5 mb-5">
             <div class="mb-5">
-              <h3>Opening Hours</h3>
-              <p><strong class="d-block">Sunday-Thursday</strong> 5AM - 10PM</p>
+              <h3>Heures d'ouvertures</h3>
+              <p><strong class="d-block">Dimanche-Mardi</strong> 17h - 22h</p>
             </div>
             <div>
-              <h3>Contact Info</h3>
+              <h3>Nos informations</h3>
               <ul class="list-unstyled footer-link">
                 <li class="d-block">
-                  <span class="d-block">Address:</span>
-                  <span class="text-white">34 Street Name, City Name Here, United States</span></li>
-                <li class="d-block"><span class="d-block">Telephone:</span><span class="text-white">+1 242 4942 290</span></li>
-                <li class="d-block"><span class="d-block">Email:</span><span class="text-white">info@yourdomain.com</span></li>
+                  <span class="d-block">Adresse:</span>
+                  <span class="text-white">33 Rue de Longchamp, 75116 Paris</span></li>
+                <li class="d-block"><span class="d-block">Téléphone:</span><span class="text-white">01 23 45 67 89</span></li>
+                <li class="d-block"><span class="d-block">Email:</span><span class="text-white">info@way.com</span></li>
               </ul>
             </div>
           </div>
           <div class="col-md-3 mb-5">
-            <h3>Quick Links</h3>
+            <h3>Nos informations</h3>
             <ul class="list-unstyled footer-link">
               <li><a href="#">About</a></li>
               <li><a href="#">Terms of Use</a></li>
@@ -414,7 +370,7 @@
         <div class="row">
           <div class="col-12 text-md-center text-left">
             <p>
-        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Thomas</a>
         </p>
           </div>
         </div>
