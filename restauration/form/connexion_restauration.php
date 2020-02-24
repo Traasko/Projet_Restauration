@@ -29,54 +29,46 @@
 
 <!-- Style -->
 
-  <body>
+<body>
 
-    <header role="banner">
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <div class="container">
-          <a class="navbar-brand" href="index.php">GAV</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+  <header role="banner">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.php">GAV</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <div class="collapse navbar-collapse" id="navbarsExample05">
-            <ul class="navbar-nav ml-auto pl-lg-5 pl-0">
-              <li class="nav-item">
-                <a class="nav-link active" href="index.php">Accueil</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="recettes.php">Recettes</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="apropos.php">A propos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="nouveaute.php">Nouveautés</a>
-              </li>
-            </ul>
+        <div class="collapse navbar-collapse" id="navbarsExample05">
+          <ul class="navbar-nav ml-auto pl-lg-5 pl-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.php">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="recettes.php">Recettes</a>
+            </li>
 
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item cta-btn">
-                <a class="nav-link" href="contact.php">Nous contacter</a>
-              </li>
-            </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="apropos.php">A propos</a>
+            </li>
 
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item cta-btn">
-                <a class="nav-link" href="inscription_restauration.php">Inscription</a>
-              </li>
-            </ul>
+          </ul>
 
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item cta-btn">
-                <a class="nav-link" href="reservation.php">Réserver</a>
-              </li>
-            </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item cta-btn">
+              <a class="nav-link" href="inscription_restauration.php">Inscription</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item cta-btn">
+              <a class="nav-link" href="connexion_restauration.php">Connexion</a>
+            </li>
+          </ul>
 
-          </div>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
 
     <!-- header -->
 
@@ -95,7 +87,7 @@
 
     <!-- slider -->
 
-		<form action="../form/index.php" method="POST">
+		<form action="utilisateur.php" method="POST">
 			<h1>Connexion</h1>
 			<input type="text" placeholder="Login" class="txtb" name="mail">
 			<input type="password" placeholder="Mot de passe" class="txtb" name="mdp">

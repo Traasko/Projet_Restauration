@@ -29,6 +29,7 @@
     <!--  Style -->
 
   </head>
+
   <body>
 
     <header role="banner">
@@ -47,32 +48,28 @@
               <li class="nav-item">
                 <a class="nav-link" href="recettes.php">Recettes</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="services.php" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown04">
-                  <a class="dropdown-item" href="services.php">Restauration</a>
-                  <a class="dropdown-item" href="services.php">Anniversaire</a>
-                  <a class="dropdown-item" href="services.php">Mariage</a>
-                </div>
-              </li>
+
               <li class="nav-item">
                 <a class="nav-link" href="apropos.php">A propos</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="nouveaute.php">Nouveautés</a>
-              </li>
+
             </ul>
 
             <ul class="navbar-nav ml-auto">
               <li class="nav-item cta-btn">
-                <a class="nav-link" href="contact.php">Nous contacter</a>
+                <a class="nav-link" href="inscription_restauration.php">Inscription</a>
               </li>
             </ul>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item cta-btn">
+                <a class="nav-link" href="connexion_restauration.php">Connexion</a>
+              </li>
+            </ul>
+
           </div>
         </div>
       </nav>
     </header>
-
     <!-- header -->
 
     <section class="home-slider-loop-false  inner-page owl-carousel">
@@ -179,34 +176,6 @@
         </div>
       </div>
     </section>
-
-
-    <section class="py-5">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-6 text-center">
-            <div class="row">
-              <div class="col-md-12">
-                <h3>Subsribe Newsletter</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ex temporibus magni ipsam inventore dolorum sunt, amet vel.</p>
-              </div>
-
-              <form action="" class="col-12">
-                <div class="row align-items-center">
-                <div class="col-md-8 mb-3 mb-md-0">
-                  <input type="text" class="form-control" placeholder="Enter Email Address">
-                </div>
-                <div class="col-md-4">
-                  <input type="submit" class="btn btn-primary btn-block" value="Subscribe">
-                </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
 
     <!-- footer -->
 

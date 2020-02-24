@@ -59,13 +59,6 @@
                 <a class="nav-link" href="inscription_restauration.php">Inscription</a>
               </li>
             </ul>
-
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item cta-btn">
-                <a class="nav-link" href="reservation.php">Réserver</a>
-              </li>
-            </ul>
-
             <ul class="navbar-nav ml-auto">
               <li class="nav-item cta-btn">
                 <a class="nav-link" href="connexion_restauration.php">Connexion</a>
@@ -86,8 +79,6 @@
           <div class="row slider-text align-items-center justify-content-center">
             <div class="col-md-8 text-center col-sm-12 element-animate">
               <h1>Chefs experts</h1>
-              <p class="mb-5">Premier restaurant de chefs experimentés</p>
-              <p><a href="#" class="btn btn-white btn-outline-white">En savoir plus</a></p>
               <p class="mb-5">Bienvenu sur notre site de restauration</p>
             </div>
           </div>
@@ -99,9 +90,8 @@
         <div class="container">
           <div class="row slider-text align-items-center justify-content-center">
             <div class="col-md-8 text-center col-sm-12 element-animate">
-              <h1>Nourriture délicieuse</h1>
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
-              <p><a href="#" class="btn btn-white btn-outline-white">En savoir plus</a></p>
+              <h1>Bonne Nourriture</h1>
+              <p class="mb-5">Des aliments en provenances des quatres coins du monde</p>
             </div>
           </div>
         </div>
@@ -109,6 +99,7 @@
       </div>
 
     </section>
+
     <!-- slider -->
 
 

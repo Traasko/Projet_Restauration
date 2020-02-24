@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Contact</title>
+    <title>Index</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -24,80 +24,129 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.css">
-
-    <!-- Theme Style -->
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
 
-    <header role="banner">
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">Eatery</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+<!-- Style -->
 
-          <div class="collapse navbar-collapse" id="navbarsExample05">
-            <ul class="navbar-nav ml-auto pl-lg-5 pl-0">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Accueil</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="recipes.html">Recettes</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown04">
-                  <a class="dropdown-item" href="services.php">Restauration</a>
-                  <a class="dropdown-item" href="services.php">Anniversaire</a>
-                  <a class="dropdown-item" href="services.php">Mariage</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="apropos.php">A propos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="nouveaute.php">Nouveautés</a>
-              </li>
-            </ul>
+<body>
 
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item cta-btn">
-                <a class="nav-link" href="contact.html">Nous contacter</a>
-              </li>
-            </ul>
+  <header role="banner">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.php">GAV</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          </div>
+        <div class="collapse navbar-collapse" id="navbarsExample05">
+          <ul class="navbar-nav ml-auto pl-lg-5 pl-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.php">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="recettes.php">Recettes</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="apropos.php">A propos</a>
+            </li>
+
+          </ul>
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item cta-btn">
+              <a class="nav-link" href="inscription_restauration.php">Inscription</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item cta-btn">
+              <a class="nav-link" href="connexion_restauration.php">Connexion</a>
+            </li>
+          </ul>
+
         </div>
-      </nav>
-    </header>
-    <!-- END header -->
+      </div>
+    </nav>
+  </header>
 
-    <section class="home-slider-loop-false  inner-page owl-carousel">
-      <div class="slider-item" style="background-image: url('img/hero_2.jpg');">
+    <!-- header -->
+
+    <section class="home-slider owl-carousel">
+      <div class="slider-item" style="background-image: url('img/hero_1.jpg');">
 
         <div class="container">
           <div class="row slider-text align-items-center justify-content-center">
             <div class="col-md-8 text-center col-sm-12 element-animate">
-              <h1>Contact Us</h1>
-
+              <h1>Utilisateur</h1>
+              <p class="mb-5">Vous voilà connecté</p>
             </div>
           </div>
         </div>
 
       </div>
-
     </section>
 
+    <!-- slider -->
+
+    <section class="section element-animate">
+
+      <div class="clearfix mb-5 pb-5">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12 text-center heading-wrap">
+              <h2>Réservation</h2><br><br>
+              <form action="../traitement/traitement_reservation.php" method="POST">
+          			<input type="text" placeholder="Nom" class="txtb" name="nom">
+          			<input type="text" placeholder="Prénom" class="txtb" name="prenom">
+                <input type="text" placeholder="Téléphone" class="txtb" name="phone">
+          			<input type="text" placeholder="Date" class="txtb" name="date">
+                <input type="text" placeholder="Heur" class="txtb" name="heur">
+          			<input type="submit" value="Réserver" class="connex-btn">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <?php
+            $bdd= new PDO('mysql:host=localhost;dbname=project;charset=utf8','root','');
+            $rep=$bdd->query('SELECT * from ins_rest');
+            $donne=$rep->fetchall();
+            foreach ($donne as $value) {
+            echo "id = ".$value['id']." "."nom = ".$value['nom']." "."prenom = ".$value['prenom']." "."mail = ".$value['mail']."mdp = ".$value['mdp']." "."<br><br>";
+        }
+      ?>
+
+    <section class="section bg-light element-animate">
+
+      <div class="clearfix mb-5 pb-5">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12 text-center heading-wrap">
+              <h2>Localisation</h2>
+              <div class="clearfix mb-5 pb-5">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-12 text-center heading-wrap"><br></br>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.651299379656!2d2.2896304000000005!3d48.86485940000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fe4d7e385a1%3A0x19ed44cc28553775!2s33%20Rue%20de%20Longchamp%2C%2075116%20Paris!5e0!3m2!1sfr!2sfr!4v1582530863446!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- .section -->
 
     <section class="section element-animate">
       <div class="clearfix mb-5 pb-5">
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-12 text-center heading-wrap">
-              <h2>Get In Touch</h2>
-              <span class="back-text">Contact Form</span>
+              <h2>Un problème ?</h2>
+              <span class="back-text"></span>
             </div>
           </div>
         </div>
@@ -108,11 +157,11 @@
             <form action="#" method="post">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <label for="name">Name</label>
+                  <label for="name">Nom</label>
                   <input type="text" id="name" class="form-control ">
                 </div>
                 <div class="col-md-6 form-group">
-                  <label for="phone">Phone</label>
+                  <label for="phone">Téléphone</label>
                   <input type="text" id="phone" class="form-control ">
                 </div>
               </div>
@@ -123,13 +172,13 @@
               </div>
               <div class="row">
                 <div class="col-md-12 form-group">
-                  <label for="email">Email</label>
+                  <label for="email">Mail</label>
                   <input type="email" id="email" class="form-control ">
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-12 form-group">
-                  <label for="message">Write Message</label>
+                  <label for="message">Message</label>
                   <textarea name="message" id="message" class="form-control " cols="30" rows="8"></textarea>
                 </div>
               </div>
@@ -144,20 +193,20 @@
           <div class="col-lg-6 pl-2 pl-lg-5">
 
             <div class="col-md-8 mx-auto contact-form-contact-info">
-              <h4 class="mb-5">Contact Details</h4>
+              <h4 class="mb-5">Nos informations</h4>
                 <p class="d-flex">
                   <span class="ion-ios-location icon mr-5"></span>
-                  <span>34 Street Name, City Name Here, United States</span>
+                  <span>33 Rue de Longchamp, 75116 Paris</span>
                 </p>
 
                 <p class="d-flex">
                   <span class="ion-ios-telephone icon mr-5"></span>
-                  <span>+1 242 4942 290</span>
+                  <span>01-23-45-67-89</span>
                 </p>
 
                 <p class="d-flex">
                   <span class="ion-android-mail icon mr-5"></span>
-                  <span>info@yourdomain.com</span>
+                  <span>info@way.com</span>
                 </p>
               </div>
 
@@ -166,6 +215,22 @@
       </div>
 
     </section>
+
+
+    <!-- .section -->
+
+    <section class="py-5 bg-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <div class="row">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
 
     <!-- footer -->
 
@@ -223,3 +288,4 @@
         <script src="js/main.js"></script>
       </body>
     </html>
+</html>

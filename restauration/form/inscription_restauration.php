@@ -28,56 +28,46 @@
 
 <!-- Style -->
 
-  <body>
+<body>
 
-    <header role="banner">
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <div class="container">
-          <a class="navbar-brand" href="index.php">GAV</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+  <header role="banner">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.php">GAV</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <div class="collapse navbar-collapse" id="navbarsExample05">
-            <ul class="navbar-nav ml-auto pl-lg-5 pl-0">
-              <li class="nav-item">
-                <a class="nav-link active" href="index.php">Accueil</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="recettes.php">Recettes</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="services.php" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown04">
-                  <a class="dropdown-item" href="services.php">Restauration</a>
-                  <a class="dropdown-item" href="services.php">Anniversaire</a>
-                  <a class="dropdown-item" href="services.php">Mariage</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="apropos.php">A propos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="nouveaute.php">Nouveautés</a>
-              </li>
-            </ul>
+        <div class="collapse navbar-collapse" id="navbarsExample05">
+          <ul class="navbar-nav ml-auto pl-lg-5 pl-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.php">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="recettes.php">Recettes</a>
+            </li>
 
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item cta-btn">
-                <a class="nav-link" href="contact.php">Nous contacter</a>
-              </li>
-            </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="apropos.php">A propos</a>
+            </li>
 
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item cta-btn">
-                <a class="nav-link" href="inscription_restauration.php">Inscription</a>
-              </li>
-            </ul>
+          </ul>
 
-          </div>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item cta-btn">
+              <a class="nav-link" href="inscription_restauration.php">Inscription</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item cta-btn">
+              <a class="nav-link" href="connexion_restauration.php">Connexion</a>
+            </li>
+          </ul>
+
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
 
     <!-- header -->
 
@@ -104,7 +94,7 @@
       <input type="text" placeholder="Mail" class="txtb" name="mail">
 			<input type="text" placeholder="Mot de passe" class="txtb" name="mdp">
 			<input type="submit" value="Inscription" class="connex-btn">
-			<a href="../traitement/traitement_connexion.php" class="button">TA PAS UN COMPTE ?</a>
+			<a href="../traitement/traitement_connexion.php" class="button">Vous avez déjà un compte ?</a>
           </div>
         </div>
       </div>
