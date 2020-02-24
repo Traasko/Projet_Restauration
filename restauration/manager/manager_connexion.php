@@ -4,13 +4,13 @@ Class Manager{
 
     public function connexion($connexion){
         $bdd= new PDO('mysql:host=localhost;dbname=restauration;charset=utf8','root','');
-        $reponse=$bdd->prepare('SELECT * FROM ins_rest WHERE mail=:mail AND mdp=:mdp');
+        $reponse=$bdd->prepare('SELECT * FROM ins_rest WHERE nom=:nom AND mdp=:mdp');
         $reponse->execute(array(
-        'mail'=>$connexion->getMail(),
+        'nom'=>$connexion->getMail(),
         'mdp'=>$connexion->getMdp()));
         $donne=$reponse->fetch();
 
-        if ($donne['mail'] == $connexion->getMail() && $donne['mdp'] == $connexion ->getMdp()){
+        if ($donne['nom'] == $connexion->getMail() && $donne['mdp'] == $connexion ->getMdp()){
             $_SESSION['id'] = $donne['id'];
             $_SESSION['nom'] = $donne['nom'];
             $_SESSION['prenom'] = $donne['prenom'];
