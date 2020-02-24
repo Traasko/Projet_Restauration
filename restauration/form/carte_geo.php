@@ -1,12 +1,13 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Réservation</title>
+    <title>Localisation</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
 
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
 
@@ -46,14 +47,6 @@
               <li class="nav-item">
                 <a class="nav-link" href="recettes.php">Recettes</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="services.php" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown04">
-                  <a class="dropdown-item" href="services.php">Restauration</a>
-                  <a class="dropdown-item" href="services.php">Anniversaire</a>
-                  <a class="dropdown-item" href="services.php">Mariage</a>
-                </div>
-              </li>
               <li class="nav-item">
                 <a class="nav-link" href="apropos.php">A propos</a>
               </li>
@@ -74,6 +67,12 @@
               </li>
             </ul>
 
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item cta-btn">
+                <a class="nav-link" href="reservation.php">Réserver</a>
+              </li>
+            </ul>
+
           </div>
         </div>
       </nav>
@@ -87,41 +86,28 @@
         <div class="container">
           <div class="row slider-text align-items-center justify-content-center">
             <div class="col-md-8 text-center col-sm-12 element-animate">
-              <h1>Réservation</h1>
+              <h1>Localisation</h1>
             </div>
           </div>
         </div>
-
       </div>
+  </section>
 
-    </section>
     <!-- slider -->
 
-    <form action="../traitement/traitement_reservation.php" method="POST">
-  			<h1>Réserver</h1>
-			<input type="text" placeholder="Nom" class="txtb" name="nom">
-			<input type="text" placeholder="Prénom" class="txtb" name="prenom">
-      <input type="text" placeholder="Téléphone" class="txtb" name="phone">
-			<input type="text" placeholder="Date" class="txtb" name="date">
-      <input type="text" placeholder="Heur" class="txtb" name="heur">
-			<input type="submit" value="Réserver" class="connex-btn">
-
-          </div>
-        </div>
-      </div>
     </section>
 
-    <section class="py-5 bg-light">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-6 text-center">
-            <div class="row">
+    <section class="section element-animate">
+
+      <div class="clearfix mb-5 pb-5">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12 text-center heading-wrap">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.651299379656!2d2.2896304000000005!3d48.86485940000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fe4d7e385a1%3A0x19ed44cc28553775!2s33%20Rue%20de%20Longchamp%2C%2075116%20Paris!5e0!3m2!1sfr!2sfr!4v1582530863446!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>              <span class="back-text">Plats spéciaux</span>
             </div>
           </div>
         </div>
       </div>
-    </section>
-
 
 <!-- footer -->
 
@@ -131,18 +117,12 @@
           <div class="col-md-4 mb-5">
             <h3>Nous concernant</h3>
             <p class="mb-5">Nous sommes un restaurant qui a ouvert ses portes en juillet 2019, nos chefs sont expérimentés</p>
-            <ul class="list-unstyled footer-link d-flex footer-social">
-              <li><a href="#" class="p-2"><span class="fa fa-twitter"></span></a></li>
-              <li><a href="#" class="p-2"><span class="fa fa-facebook"></span></a></li>
-              <li><a href="#" class="p-2"><span class="fa fa-linkedin"></span></a></li>
-              <li><a href="#" class="p-2"><span class="fa fa-instagram"></span></a></li>
-            </ul>
 
           </div>
           <div class="col-md-5 mb-5">
             <div class="mb-5">
               <h3>Heures d'ouvertures</h3>
-              <p><strong class="d-block">Dimanche-Mardi</strong> 10h - 22h</p>
+              <p><strong class="d-block">Dimanche-Mardi</strong> 17h - 22h</p>
             </div>
             <div>
               <h3>Nos informations</h3>
@@ -171,7 +151,7 @@
         <div class="row">
           <div class="col-12 text-md-center text-left">
             <p>
-        Copyright &copy;<script>document.write(new Date().getFullYear());</script>| Créer par Thomas Yalap</a>
+        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Thomas</a>
         </p>
           </div>
         </div>

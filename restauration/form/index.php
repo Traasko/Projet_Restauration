@@ -47,26 +47,15 @@
               <li class="nav-item">
                 <a class="nav-link" href="recettes.php">Recettes</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="services.php" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown04">
-                  <a class="dropdown-item" href="services.php">Restauration</a>
-                  <a class="dropdown-item" href="services.php">Anniversaire</a>
-                  <a class="dropdown-item" href="services.php">Mariage</a>
-                </div>
-              </li>
+
               <li class="nav-item">
                 <a class="nav-link" href="apropos.php">A propos</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="nouveaute.php">Nouveautés</a>
-              </li>
-            </ul>
 
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item cta-btn">
-                <a class="nav-link" href="contact.php">Nous contacter</a>
+              <li class="nav-item">
+                <a class="nav-link" href="apropos.php">A propos</a>
               </li>
+
             </ul>
 
             <ul class="navbar-nav ml-auto">
@@ -78,6 +67,12 @@
             <ul class="navbar-nav ml-auto">
               <li class="nav-item cta-btn">
                 <a class="nav-link" href="reservation.php">Réserver</a>
+              </li>
+            </ul>
+
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item cta-btn">
+                <a class="nav-link" href="connexion_restauration.php">Connexion</a>
               </li>
             </ul>
 

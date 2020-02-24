@@ -30,10 +30,10 @@
 	<div class="connex-form">
 		<form action="class_connexion.php" method="POST">
 
-		<form action="model/class_connexion.php" method="POST">
+		<form action="../form/index.php" method="POST">
 			<h1>Connexion</h1>
-			<input type="text" placeholder="Login" class="txtb" name="login">
-			<input type="password" placeholder="Mot de passe" class="txtb" name="pwd">
+			<input type="text" placeholder="Login" class="txtb" name="mail">
+			<input type="password" placeholder="Mot de passe" class="txtb" name="mdp">
 			<input type="submit" value="Connexion" class="connex-btn">
 			<a href="inscription_restauration.php">Je n'ai pas de compte</a>
 		</form>
