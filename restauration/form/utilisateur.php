@@ -104,6 +104,7 @@
                 <input type="text" placeholder="Heur" class="txtb" name="heur">
           			<input type="submit" value="Réserver" class="connex-btn">
             </div>
+
           </div>
         </div>
       </div>
