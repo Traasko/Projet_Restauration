@@ -139,28 +139,28 @@
       </div>
 
       <div class="owl-carousel centernonloop">
-        <a href="#" class="item-dishes">
+        <a class="item-dishes">
           <div class="text">
             <p class="dishes-price">11.50€</p>
             <h2 class="dishes-heading">Salade de tomates bio, fromage gorgonzola, câpres</h2>
           </div>
           <img src="img/dishes_1.jpg" alt="" class="img-fluid">
         </a>
-        <a href="#" class="item-dishes">
+        <a class="item-dishes">
           <div class="text">
             <p class="dishes-price">12.00€</p>
             <h2 class="dishes-heading">Brocolis au four</h2>
           </div>
           <img src="img/dishes_2.jpg" alt="" class="img-fluid">
         </a>
-        <a href="#" class="item-dishes">
+        <a  class="item-dishes">
           <div class="text">
             <p class="dishes-price">11.00€</p>
             <h2 class="dishes-heading">Boulettes de viande épicées</h2>
           </div>
           <img src="img/dishes_3.jpg" alt="" class="img-fluid">
         </a>
-        <a href="#" class="item-dishes">
+        <a class="item-dishes">
           <div class="text">
             <p class="dishes-price">12.00€</p>
             <h2 class="dishes-heading">Aubergines parmigiana</h2>

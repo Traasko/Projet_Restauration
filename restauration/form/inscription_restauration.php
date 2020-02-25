@@ -81,10 +81,9 @@
             </div>
           </div>
         </div>
-
       </div>
-
     </section>
+
     <!-- slider -->
 
     <form action="../traitement/traitement_inscription.php" method="POST">

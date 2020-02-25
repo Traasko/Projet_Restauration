@@ -176,7 +176,7 @@
               </div>
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="submit" value="Send Message" class="btn btn-primary">
+                  <input type="submit" value="Envoyer" class="btn btn-primary">
                 </div>
               </div>
             </form>

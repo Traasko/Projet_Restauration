@@ -10,7 +10,7 @@ Class Manager{
         'mdp'=>$connexion->getMdp()));
         $donne=$reponse->fetch();
 
-        if ($donne['nom'] == $connexion->getMail() && $donne['mdp'] == $connexion ->getMdp()){
+        if ($donne['nom'] == $connexion->getNom() && $donne['mdp'] == $connexion ->getMdp()){
             $_SESSION['id'] = $donne['id'];
             $_SESSION['nom'] = $donne['nom'];
             $_SESSION['prenom'] = $donne['prenom'];
