@@ -95,7 +95,7 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-12 text-center heading-wrap">
-              <h2>Réservation</h2><br><br>
+              <h2>Réserver ici</h2><br><br>
               <form action="../traitement/traitement_reservation.php" method="POST">
           			<input type="text" placeholder="Nom" class="txtb" name="nom">
           			<input type="text" placeholder="Prénom" class="txtb" name="prenom">
@@ -108,14 +108,6 @@
         </div>
       </div>
 
-      <?php
-            $bdd= new PDO('mysql:host=localhost;dbname=project;charset=utf8','root','');
-            $rep=$bdd->query('SELECT * from ins_rest');
-            $donne=$rep->fetchall();
-            foreach ($donne as $value) {
-            echo "id = ".$value['id']." "."nom = ".$value['nom']." "."prenom = ".$value['prenom']." "."mail = ".$value['mail']."mdp = ".$value['mdp']." "."<br><br>";
-        }
-      ?>
 
     <section class="section bg-light element-animate">
 

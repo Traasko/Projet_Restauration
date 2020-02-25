@@ -129,7 +129,7 @@
             <div class="major-caousel js-carousel-1 owl-carousel">
               <div>
                 <div class="media d-block media-custom text-center">
-                  <a href="adoption-single.html"><img src="img/person_1.jpg" alt="Image Placeholder" class="img-fluid"></a>
+                  <img src="img/person_1.jpg" alt="Image Placeholder" class="img-fluid">
                   <div class="media-body">
                     <h3 class="mt-0 text-black">Charles White</h3>
                     <p class="lead">PDG, Co-fondateur</p>
@@ -138,7 +138,7 @@
               </div>
               <div>
                 <div class="media d-block media-custom text-center">
-                  <a href="adoption-single.html"><img src="img/person_2.jpg" alt="Image Placeholder" class="img-fluid"></a>
+                  <img src="img/person_2.jpg" alt="Image Placeholder" class="img-fluid">
                   <div class="media-body">
                     <h3 class="mt-0 text-black">Mike Richardson</h3>
                     <p class="lead">PDG, Co-fondateur</p>
@@ -147,9 +147,9 @@
               </div>
               <div>
                 <div class="media d-block media-custom text-center">
-                  <a href="adoption-single.html"><img src="img/person_3.jpg" alt="Image Placeholder" class="img-fluid"></a>
+                  <img src="img/person_3.jpg" alt="Image Placeholder" class="img-fluid">
                   <div class="media-body">
-                    <h3 class="mt-0 text-black">Mellisa Howard</h3>
+                    <h3 class="mt-0 text-black">Melissa Howard</h3>
                     <p class="lead">PDG, Co-fondatrice</p>
                   </div>
                 </div>
