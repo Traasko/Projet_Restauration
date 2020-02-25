@@ -1,12 +1,13 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Réservation</title>
+    <title>Index</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
 
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
 
@@ -77,28 +78,146 @@
         <div class="container">
           <div class="row slider-text align-items-center justify-content-center">
             <div class="col-md-8 text-center col-sm-12 element-animate">
-              <h1>Inscription</h1>
+              <h1>Utilisateur</h1>
+              <p class="mb-5">Vous voilà connecté</p>
             </div>
           </div>
         </div>
 
       </div>
-
     </section>
+
     <!-- slider -->
 
-    <form action="../traitement/traitement_inscription.php" method="POST">
-  			<h1>Inscription</h1>
-			<input type="text" placeholder="Nom" class="txtb" name="nom">
-			<input type="text" placeholder="Prénom" class="txtb" name="prenom">
-      <input type="text" placeholder="Mail" class="txtb" name="mail">
-			<input type="text" placeholder="Mot de passe" class="txtb" name="mdp">
-			<input type="submit" value="Inscription" class="connex-btn">
-			<a href="../traitement/traitement_connexion.php" class="button">Vous avez déjà un compte ?</a>
+    <section class="section element-animate">
+
+      <div class="clearfix mb-5 pb-5">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12 text-center heading-wrap">
+              <h2>Réservation</h2><br><br>
+              <form action="../traitement/traitement_reservation.php" method="POST">
+          			<input type="text" placeholder="Nom" class="txtb" name="nom">
+          			<input type="text" placeholder="Prénom" class="txtb" name="prenom">
+                <input type="text" placeholder="Téléphone" class="txtb" name="phone">
+          			<input type="text" placeholder="Date" class="txtb" name="date">
+                <input type="text" placeholder="Heur" class="txtb" name="heur">
+          			<input type="submit" value="Réserver" class="connex-btn">
+            </div>
           </div>
         </div>
       </div>
+
+      <?php
+            $bdd= new PDO('mysql:host=localhost;dbname=project;charset=utf8','root','');
+            $rep=$bdd->query('SELECT * from ins_rest');
+            $donne=$rep->fetchall();
+            foreach ($donne as $value) {
+            echo "id = ".$value['id']." "."nom = ".$value['nom']." "."prenom = ".$value['prenom']." "."mail = ".$value['mail']."mdp = ".$value['mdp']." "."<br><br>";
+        }
+      ?>
+
+    <section class="section bg-light element-animate">
+
+      <div class="clearfix mb-5 pb-5">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12 text-center heading-wrap">
+              <h2>Localisation</h2>
+              <div class="clearfix mb-5 pb-5">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-12 text-center heading-wrap"><br></br>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.651299379656!2d2.2896304000000005!3d48.86485940000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fe4d7e385a1%3A0x19ed44cc28553775!2s33%20Rue%20de%20Longchamp%2C%2075116%20Paris!5e0!3m2!1sfr!2sfr!4v1582530863446!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- .section -->
+
+    <section class="section element-animate">
+      <div class="clearfix mb-5 pb-5">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12 text-center heading-wrap">
+              <h2>Un problème ?</h2>
+              <span class="back-text"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <form action="#" method="post">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <label for="name">Nom</label>
+                  <input type="text" id="name" class="form-control ">
+                </div>
+                <div class="col-md-6 form-group">
+                  <label for="phone">Téléphone</label>
+                  <input type="text" id="phone" class="form-control ">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 form-group">
+
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <label for="email">Mail</label>
+                  <input type="email" id="email" class="form-control ">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <label for="message">Message</label>
+                  <textarea name="message" id="message" class="form-control " cols="30" rows="8"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="submit" value="Send Message" class="btn btn-primary">
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-lg-6 pl-2 pl-lg-5">
+
+            <div class="col-md-8 mx-auto contact-form-contact-info">
+              <h4 class="mb-5">Nos informations</h4>
+                <p class="d-flex">
+                  <span class="ion-ios-location icon mr-5"></span>
+                  <span>33 Rue de Longchamp, 75116 Paris</span>
+                </p>
+
+                <p class="d-flex">
+                  <span class="ion-ios-telephone icon mr-5"></span>
+                  <span>01-23-45-67-89</span>
+                </p>
+
+                <p class="d-flex">
+                  <span class="ion-android-mail icon mr-5"></span>
+                  <span>info@way.com</span>
+                </p>
+              </div>
+
+          </div>
+        </div>
+      </div>
+
     </section>
+
+
+    <!-- .section -->
 
     <section class="py-5 bg-light">
       <div class="container">
@@ -110,6 +229,7 @@
         </div>
       </div>
     </section>
+
 
 
     <!-- footer -->
@@ -168,3 +288,4 @@
         <script src="js/main.js"></script>
       </body>
     </html>
+</html>
