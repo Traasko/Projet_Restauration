@@ -47,10 +47,6 @@
               <li class="nav-item">
                 <a class="nav-link" href="recettes.php">Recettes</a>
               </li>
-<<<<<<< HEAD
-=======
-
->>>>>>> 015455278a6200352f3b898bab352b9826fc09fd
               <li class="nav-item">
                 <a class="nav-link" href="apropos.php">A propos</a>
               </li>
@@ -259,7 +255,7 @@
         <div class="row">
           <div class="col-md-4">
             <blockquote class="testimonial">
-              <p>&ldquo; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, obcaecati? Quis eum minus, sequi atque quisquam ducimus aliquam veritatis nobis cum iusto neque enim explicabo maxime natus doloribus, fuga sunt. &rdquo;</p>
+              <p>&ldquo; Très bon, ce fût un plaisir de travailler dans ce restaurant. Grâce a cette expérience j'ai pu ouvrir mon propre restaurant. J'en garde un très bon souvenir.  &rdquo;</p>
               <div class="d-flex author">
                 <img src="img/person_1.jpg" alt="" class="mr-4">
                 <div class="author-info">
@@ -271,7 +267,7 @@
           </div>
           <div class="col-md-4">
             <blockquote class="testimonial">
-              <p>&ldquo; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, obcaecati? Quis eum minus, sequi atque quisquam ducimus aliquam veritatis nobis cum iusto neque enim explicabo maxime natus doloribus, fuga sunt. &rdquo;</p>
+              <p>&ldquo; Très bon, ce fût un plaisir de travailler dans ce restaurant. Grâce a cette expérience j'ai pu ouvrir mon propre restaurant. J'en garde un très bon souvenir. &rdquo;</p>
               <div class="d-flex author">
                 <img src="img/person_2.jpg" alt="" class="mr-4">
                 <div class="author-info">
@@ -283,7 +279,7 @@
           </div>
           <div class="col-md-4">
             <blockquote class="testimonial">
-              <p>&ldquo; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, obcaecati? Quis eum minus, sequi atque quisquam ducimus aliquam veritatis nobis cum iusto neque enim explicabo maxime natus doloribus, fuga sunt. &rdquo;</p>
+              <p>&ldquo; Très bon, ce fût un plaisir de travailler dans ce restaurant. Grâce a cette expérience j'ai pu ouvrir mon propre restaurant. J'en garde un très bon souvenir. &rdquo;</p>
               <div class="d-flex author">
                 <img src="img/person_3.jpg" alt="" class="mr-4">
                 <div class="author-info">
